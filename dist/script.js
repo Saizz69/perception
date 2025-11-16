@@ -2,7 +2,7 @@
 // 1. Configuration (REPLACE YOUR KEY HERE)
 // =========================================================
 // !!! WARNING: NEVER EXPOSE YOUR KEY IN A PUBLIC FRONTEND !!!
-const GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"; // <-- REPLACE THIS with your key
+const GEMINI_API_KEY = "AIzaSyAhR8G4eGLhWxYBY68LYgre0h6pt1Q3fgw"; // <-- REPLACE THIS with your key
 const MODEL_NAME = "gemini-2.5-flash";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${GEMINI_API_KEY}`;
 
