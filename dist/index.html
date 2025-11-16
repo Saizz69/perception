@@ -1,25 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AccessAI - AI-Powered Accessibility Extension</title>
-    <meta name="description" content="Customize and enhance your web experience with AI-driven accessibility tools for cognitive, visual, and motor needs" />
-    <meta name="author" content="AccessAI" />
+<head>
+    <meta charset="UTF-8">
+    <title>Gemini AI Integration</title>
+</head>
+<body>
+    <h2>Ask Gemini AI</h2>
 
-    <meta property="og:title" content="AccessAI - AI-Powered Accessibility Extension" />
-    <meta property="og:description" content="Customize and enhance your web experience with AI-driven accessibility tools" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <input type="text" id="user-input" placeholder="Enter your question..." style="width: 300px; padding: 10px;">
+    
+    <button id="ask-ai-button">Ask AI</button>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    <script type="module" crossorigin src="/assets/index-CC21IPub.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DzqrpekN.css">
-  </head>
+    <hr>
+    
+    <div id="ai-response-container">
+        <strong>AI Response:</strong>
+        <p id="ai-response-text">Waiting for your question...</p>
+    </div>
 
-  <body>
-    <div id="root"></div>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
